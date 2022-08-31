@@ -6,29 +6,24 @@ Author: Chris Castiglione | www.twitter.com/castig | www.castig.org
 Developed @ One Month in NYC 
 
 */
-html{
-	font-family: sans-serif; /* 1 */
 
-}
 body {
 	/*background: url('../images/cookie-monster.jpg');*/
 	/* the follow is the code to have the image display as a full page */
 	background-position: center;
-	background: url(../images/cookie-monster.jpg);
+	background-image: url(https://lh3.googleusercontent.com/gArOo7F_MFKBCz_tQF4FNueIP0TiFbh8vJIFnS9fRRGPNCA1fwOXO_tifE4f4yVommLqLH_C36m4qUbFPcuUy4CiRQNpW8ARWQ=w1200-h630-rj-pp-e365);
 	background-attachment: fixed;
-	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-size:500px;
+	font-family: 'Josefin Sans', sans-serif;
 }
-
-#container{
-	padding: 5px;
-	background: pink;
-	color: black;
+#container {
+	padding: 60px;
+	background:  #011627;
+	color: white;
 	width: 424px;
-
 }
+
+
 h1{
 	font-size: 80px;
 }
@@ -36,10 +31,14 @@ h1{
 h2{
 	background: #75c1f6;
 	padding: 5px;
+	color: black;
 	border-radius: 15px;
+	
+
 }
 
 a{
 	color: red;
 	text-decoration: none;
+	text-align: justify;
 }
