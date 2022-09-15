@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.container img{
+    border-radius:0px;
+  }
+
+  
+p{
+    padding-bottom: 25px;
+   margin-bottom: 0px;
+}
+h1{
+    padding-top: 20px;
+}
+h2{
+    padding-top: 10px;
+}
+
+section.intro img{
+    text-align: center;
+    float:inherit;
+    margin-left: auto; 
+    display: block;
+    margin-right: auto;
+
+  
+   }
+
+   section.contact img{
+    text-align: center;
+    float:inherit;
+    margin-left: auto; 
+    display: block;
+    margin-right: auto;
+
+  
+   }

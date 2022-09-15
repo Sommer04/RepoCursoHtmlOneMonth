@@ -1,0 +1,43 @@
+body{
+    
+}
+.clear{
+    clear:both;
+}
+
+#container{
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+#header{
+    background: silver;
+    padding: 50px;
+}
+img{
+width:80%;
+  height:80%;
+  float: right;
+}    
+#main{
+    background: SkyBlue;
+    float: left;
+    padding: 50px;
+    width: 500px;
+
+}
+
+#side-bar{
+    background: pink;
+    padding:50px;
+    float: left;
+    width: 300px;
+
+}
+
+#footer{
+    background: peachpuff;
+    padding: 50px;
+
+
+}
